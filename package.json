@@ -1,0 +1,39 @@
+{
+  "name": "test-launcher",
+  "version": "1.0.0",
+  "description": "Mocha Launcher for browser end test，Inspired by Karma.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dom-bro/test-launcher.git"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.38",
+    "@babel/preset-env": "^7.0.0-beta.38",
+    "babel-loader": "^8.0.0-beta.0",
+    "commander": "^2.13.0",
+    "express": "^4.16.2",
+    "marko": "^4.7.5",
+    "mocha": "^5.0.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dom-bro/test-launcher/issues"
+  },
+  "homepage": "https://github.com/dom-bro/test-launcher#readme"
+}
