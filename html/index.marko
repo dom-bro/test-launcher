@@ -3,15 +3,17 @@
 <head>
     <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
     <title>Mocha Starter</title>
-    <link rel='stylesheet' href='./node_modules/mocha/mocha.css'>
+    <link rel='stylesheet' href='../node_modules/mocha/mocha.css'>
 </head>
 <body>
 
     <div id='mocha'></div>
 
-    <script src='./node_modules/mocha/mocha.js'></script>
+    <script src='../node_modules/mocha/mocha.js'></script>
 
     <script>mocha.setup('bdd')</script>
+
+    <script src='/bundle.spec.js'></script>
 
      <script>mocha.run()</script>
 </body>
