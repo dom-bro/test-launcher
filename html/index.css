@@ -15,10 +15,26 @@ html {
   max-width: 960px;
   margin: 0 auto;
 }
-#mocha{
-  margin-top: 0 !important;
+#error{
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  font-weight: bold;
+  color: #f00;
+  overflow: auto;
+  display: none;
+  padding: 10px;
+  margin: 0 6px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
-
+#mocha{
+  margin-top: 0;
+  margin-bottom: 0;
+}
 #mocha-stats{
   position: static;
   float: right;

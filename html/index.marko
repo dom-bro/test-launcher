@@ -5,6 +5,13 @@
     <title>Mocha Launcher</title>
     <link rel='stylesheet' href='/node_modules/mocha/mocha.css'>
     <link rel='stylesheet' href='/html/index.css'>
+    <script>
+      window.addEventListener('error', function(e){
+        var el = document.getElementById('error')
+        el.style.display = 'block'
+        el.innerHTML += e.error.stack + '<br><br>'
+      })
+    </script>
 </head>
 <body>
   <div class="container">
@@ -17,6 +24,7 @@
     </div>
 
     <div id='mocha'></div>
+    <pre id='error'></pre>
   </div>
   <script src='/node_modules/mocha/mocha.js'></script>
 
