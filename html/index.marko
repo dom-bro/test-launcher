@@ -4,17 +4,26 @@
     <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
     <title>Mocha Launcher</title>
     <link rel='stylesheet' href='/node_modules/mocha/mocha.css'>
+    <link rel='stylesheet' href='/html/index.css'>
 </head>
 <body>
+  <div class="container">
+    <div class='action-block'>
+      <a href='/' class="btn btn-success">首页</a>
+      <a href='javascript:location.reload()'
+         class="btn btn-info"
+         style="float:right"
+      >reload</a>
+    </div>
 
     <div id='mocha'></div>
+  </div>
+  <script src='/node_modules/mocha/mocha.js'></script>
 
-    <script src='/node_modules/mocha/mocha.js'></script>
+  <script>mocha.setup('bdd')</script>
 
-    <script>mocha.setup('bdd')</script>
+  <script src='/bundle.spec.js'></script>
 
-    <script src='/bundle.spec.js'></script>
-
-     <script>mocha.run()</script>
+   <script>mocha.run()</script>
 </body>
 </html>

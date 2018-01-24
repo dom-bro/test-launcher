@@ -2,9 +2,9 @@
   "name": "test-launcher",
   "version": "0.1.0",
   "description": "Mocha Launcher for browser end test. Inspired by Karma.",
-  "main": "./lib/launcher.js",
-  "bin": {
-    "launcher": "./bin/launcher.js"
+  "main": "./lib/main.js",
+  "scripts": {
+    "launcher": "webpack-dev-server --config launcher.config.js"
   },
   "repository": {
     "type": "git",

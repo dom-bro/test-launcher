@@ -1,3 +1,5 @@
-module.exports = {
-  file: 'test/add.js',
-}
+const launcher = require('./lib/main')
+
+module.exports = launcher({
+  entry: './test/add.js',
+})

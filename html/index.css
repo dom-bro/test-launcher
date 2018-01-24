@@ -1,0 +1,70 @@
+html {
+  font-size: 14px;
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 15px !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 16px !important;
+  }
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+#mocha{
+  margin-top: 0 !important;
+}
+
+#mocha-stats{
+  position: static;
+  float: right;
+}
+#mocha-report{
+  clear: both;
+}
+#mocha-report h2{
+  margin-right: 30px;
+}
+.action-block{
+  margin: 1rem;
+}
+.btn{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 46%;
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}

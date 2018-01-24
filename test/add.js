@@ -6,3 +6,12 @@ describe('hello mocha', () => {
 
   })
 })
+
+describe('test B', () => {
+  it('2', () => {
+
+  })
+  it('5', () => {
+
+  })
+})
