@@ -27,8 +27,14 @@
     <pre id='error'></pre>
   </div>
   <script src='/node_modules/mocha/mocha.js'></script>
+  <script src='/node_modules/chai/chai.js'></script>
 
-  <script>mocha.setup('bdd')</script>
+  <script>
+    window.expect = chai.expect
+    window.assert = chai.assert
+    window.should = chai.should()
+    mocha.setup('bdd')
+  </script>
 
   <script src='/bundle.spec.js'></script>
 

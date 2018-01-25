@@ -15,6 +15,9 @@ html {
   max-width: 960px;
   margin: 0 auto;
 }
+pre{
+  overflow: auto;
+}
 #error{
   font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
   font-weight: bold;
