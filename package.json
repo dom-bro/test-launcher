@@ -1,6 +1,6 @@
 {
   "name": "test-launcher",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Mocha Launcher for browser end test. Inspired by Karma.",
   "main": "./lib/main.js",
   "scripts": {
